@@ -1,17 +1,14 @@
 package pruebas;
 
-import static org.junit.Assert.*;
-
 import java.awt.Color;
-
-import org.junit.Test;
 
 import ABB.ABB;
 import ABB.NodoArbol;
 import ARB.ARB;
 import AVL.AVL;
+import junit.framework.TestCase;
 
-public class PruebasUnitarias {
+public class PruebasUnitarias extends TestCase {
 
 	
 	/*
@@ -250,7 +247,6 @@ public class PruebasUnitarias {
 		assertTrue(arbolAVL.getRaiz().getIzquierdo().getIzquierdo() == null && arbolAVL.getRaiz().getIzquierdo().getDerecho() == null);
 		
 	}
-	@Test
 	public void testEliminarAVLCaso3(){
 		
 		setupEscenario3();
