@@ -1,5 +1,11 @@
 package modelo;
 
-public class FIBA {
+import java.io.Serializable;
+
+import AVL.AVL;
+
+public class FIBA implements Serializable{
+	
+	
 
 }
