@@ -1,5 +1,7 @@
 package test;
 
+import org.junit.Test;
+
 import junit.framework.TestCase;
 import modelo.FIBA;
 import modelo.Player;
@@ -26,5 +28,13 @@ public class Test  extends TestCase{
 		assertEquals("David", p1.getName());
 		
 	}
+	
+	public void searchRedBlack() {
+		test1();
+		Player player = model.searchPlayersRB(o)
+	}
+	
+
+
 	
 }
