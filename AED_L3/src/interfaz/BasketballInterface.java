@@ -24,7 +24,9 @@ public class BasketballInterface extends JFrame {
 		
 		
 		viewPanel = new ViewPanel();
-		add(viewPanel, BorderLayout.SOUTH);
+		add(viewPanel, BorderLayout.CENTER);
+		
+		
 		
 		
 	}

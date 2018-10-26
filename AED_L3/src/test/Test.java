@@ -1,6 +1,5 @@
 package test;
 
-import org.junit.Test;
 
 import junit.framework.TestCase;
 import modelo.FIBA;
@@ -20,8 +19,8 @@ public class Test  extends TestCase{
 		model.addPlayerByBlocks(new Player("nicolas", "Indiana", 25, 50, 50, 50, 50, 50));
 		
 	}
+
 	
-	@Test
 	public void searchAVL() {
 		test1();
 		Player p1 = model.searchPlayersAVL(2);
@@ -31,7 +30,7 @@ public class Test  extends TestCase{
 	
 	public void searchRedBlack() {
 		test1();
-		Player player = model.searchPlayersRB(o)
+//		Player player = model.searchPlayersRB(o);
 	}
 	
 
